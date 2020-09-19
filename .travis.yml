@@ -13,7 +13,7 @@ deploy:
    provider: elasticbeanstalk
    region: 'us-east-2'
    app: 'firstdocker'
-   env: 'docker-env'
+   env: 'Firstdocker-env'
    bucket_name: 'elasticbeanstalk-us-east-2-603041477622'
    bucket_path: 'docker'
    on:
