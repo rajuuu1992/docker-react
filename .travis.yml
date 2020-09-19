@@ -14,7 +14,7 @@ deploy:
    region: 'us-east-2'
    app: 'firstdocker'
    env: 'docker-env'
-   bucket_name: 'arn:aws:s3:::elasticbeanstalk-us-east-2-603041477622'
+   bucket_name: 'elasticbeanstalk-us-east-2-603041477622'
    bucket_path: 'docker'
    on:
      branch: master
