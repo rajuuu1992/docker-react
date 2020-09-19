@@ -11,11 +11,11 @@ script:
 
 deploy:
    provider: elasticbeanstalk
-   region: "us-east-2"
-   app: "FirstDocker-env"
-   env: "Docker-env"
-   bucket_name: "Firstdocker-env.eba-zenpzqqe.us-east-2.elasticbeanstalk.com"
-   bucket_path: "docker"
+   region: 'us-east-2'
+   app: 'FirstDocker-env'
+   env: 'docker-env'
+   bucket_name: 'Firstdocker-env.eba-zenpzqqe.us-east-2.elasticbeanstalk.com'
+   bucket_path: 'docker'
    on:
      branch: master
    access_key_id: $AWS_ACCESS_KEY
