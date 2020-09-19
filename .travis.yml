@@ -12,9 +12,9 @@ script:
 deploy:
    provider: elasticbeanstalk
    region: "us-east-2"
-   app: "FirstDocker"
+   app: "FirstDocker-env"
    env: "Docker-env"
-   bucket_name: "Firstdocker-env.eba-zenpzqqe.us-east-2.elasticbeanstalk.com"  # code copied to s3 bucket
+   bucket_name: "Firstdocker-env.eba-zenpzqqe.us-east-2.elasticbeanstalk.com"
    bucket_path: "docker"
    on:
      branch: master
