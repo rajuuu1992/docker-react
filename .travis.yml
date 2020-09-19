@@ -14,7 +14,7 @@ deploy:
    region: "us-east-2"
    app: "FirstDocker"
    env: "Docker-env"
-   bucket_name: "" # code copied to s3 bucket
+   bucket_name: "Firstdocker-env.eba-zenpzqqe.us-east-2.elasticbeanstalk.com"  # code copied to s3 bucket
    bucket_path: "docker"
    on:
      branch: master
