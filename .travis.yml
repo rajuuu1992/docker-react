@@ -12,7 +12,7 @@ script:
 deploy:
    provider: elasticbeanstalk
    region: 'us-east-2'
-   app: 'FirstDocker-env'
+   app: 'firstdocker'
    env: 'docker-env'
    bucket_name: 'Firstdocker-env.eba-zenpzqqe.us-east-2.elasticbeanstalk.com'
    bucket_path: 'docker'
